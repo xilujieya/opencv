@@ -5,9 +5,9 @@
 # @FileName: test.py
 # @Software: PyCharm
 
-from numpy import *
-eye(4)
-array([[1., 0., 0., 0.],
-       [0., 1., 0., 0.],
-       [0., 0., 1., 0.],
-       [0., 0., 0., 1.]])
+import cv2
+
+img = cv2.imread("1.png")
+cv2.namedWindow("Image")
+cv2.imshow("Image", img)
+cv2.waitKey(0)
