@@ -11,3 +11,6 @@ img = cv2.imread("1.png")
 cv2.namedWindow("Image")
 cv2.imshow("Image", img)
 cv2.waitKey(0)
+
+if __name__ == '__main__':
+    pass
